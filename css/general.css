@@ -43,13 +43,17 @@ h1 {
 
 .info {
   text-align: center;
-  font-family: 'Creepster', sans-serif;
   list-style-type: none;
   padding: 0;
   margin-top: -1.5rem;
   font-family: 'Cutive Mono', ;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: .8rem;
+}
+
+.email {
+  text-transform: lowercase;
+  
 }
 
 .socialmedia {
@@ -62,4 +66,16 @@ h1 {
 .icon {
   display: inline-block;
   width: 1rem;
+}
+
+#galleryphotos {
+  margin-top: 12rem;
+  padding: 0;
+}
+
+.images {
+   display: block;
+   position: relative;
+   width: 100%;
+   border:none;
 }
