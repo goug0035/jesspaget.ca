@@ -24,7 +24,7 @@ h1 {
   padding: 0 2rem;
   background-size: .3em auto;
   background-repeat: no-repeat;
-  background-position: 0 -500%, 100% -500%;
+  background-position: 0 100%, 100% 100%;
   display: inline-block;
   font-family: 'Creepster', sans-serif;
   font-size: 3rem;
