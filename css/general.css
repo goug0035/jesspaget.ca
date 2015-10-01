@@ -77,7 +77,8 @@ h1 {
   display: block;
   margin: auto;
   margin: auto;
+  margin-bottom: 1.5rem;
   position: relative;
-  width: 90%;
+  max-width: 15rem;
   border: black solid 2px;
 }
