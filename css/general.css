@@ -69,13 +69,15 @@ h1 {
 }
 
 #galleryphotos {
-  margin-top: 12rem;
+  margin: 0;
   padding: 0;
 }
 
 .images {
-   display: block;
-   position: relative;
-   width: 100%;
-   border:none;
+  display: block;
+  margin: auto;
+  margin: auto;
+  position: relative;
+  width: 90%;
+  padding: 1rem;
 }
