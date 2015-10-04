@@ -69,11 +69,10 @@ h1 {
 }
 
 .nav {
-  margin: 1rem 3rem;
+  margin: 0 3rem 1rem 3rem;
   padding: 0;
   list-style-type: none;
-  display: block;
-  margin: 0, auto;
+  display: none;
 }
 
 .nav li {
@@ -90,7 +89,40 @@ h1 {
   text-transform: uppercase;
   font-size: .85rem;
   color: #FED245;
-  
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-label {
+  margin-top: -1rem; 
+  cursor: pointer;
+  display: inline-block;
+  width: 40px;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width: 100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
 }
 
 #galleryphotos {
