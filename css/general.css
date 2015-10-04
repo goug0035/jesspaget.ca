@@ -101,7 +101,7 @@ h1 {
 }
 
 .nav-label {
-  margin-top: -1rem; 
+  margin: 0 43.75%;
   cursor: pointer;
   display: inline-block;
   width: 40px;
@@ -137,5 +137,15 @@ h1 {
   margin-bottom: 1.5rem;
   position: relative;
   max-width: 15rem;
-  border: black solid 2px;
+}
+
+@media only screen and (min-width: 25em) {
+
+}
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
 }
