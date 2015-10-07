@@ -46,7 +46,7 @@ h1 {
   list-style-type: none;
   padding: 0;
   margin-top: -1rem;
-  font-family: 'Cutive Mono', sans-serif;
+  font-family: 'Cutive Mono' sans-serif;
   text-transform: lowercase;
   font-size: .8rem;
 }
@@ -61,6 +61,35 @@ h1 {
   text-align: center;
   padding: 0;
   margin-top: -1.3rem;
+  margin-bottom: 0;
+}
+
+.instagram {
+  height: 1em;
+  width: 1em;
+  background-image: url(../images/instagram.svg);
+  background-repeat: no-repeat;
+}
+
+.behance {
+  height: 1em;
+  width: 1em;
+  background-image: url(../images/behance.svg);
+  background-repeat: no-repeat;
+}
+
+.tumblr {
+  height: 1em;
+  width: 1em;
+  background-image: url(../images/tumblr.svg);
+  background-repeat: no-repeat;
+}
+
+.linkedin {
+  height: 1em;
+  width: 1em;
+  background-image: url(../images/linkedin.svg);
+  background-repeat: no-repeat;
 }
 
 .icon {
@@ -73,6 +102,7 @@ h1 {
   padding: 0;
   list-style-type: none;
   display: none;
+  position: relative;
 }
 
 .nav li {
@@ -106,6 +136,7 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
 }
 
 .nav-open,
@@ -129,6 +160,12 @@ h1 {
 #galleryphotos {
   margin: 0;
   padding: 0;
+}
+
+.bodyimages {
+  z-index: 0;
+  position: relative;
+  top: 3em;
 }
 
 .images {
