@@ -101,10 +101,11 @@ h1 {
 }
 
 .nav-label {
-  margin: 0 43.75%;
   cursor: pointer;
-  display: inline-block;
   width: 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .nav-open,
