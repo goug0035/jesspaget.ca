@@ -204,6 +204,39 @@ h3 {
   margin: 2rem;
 }
 
+.port-title {
+  color: #0B8599;
+  text-transform: uppercase;
+  padding-top: 4.5em;
+  text-align: center;
+}
+
+.portfolio-intro {
+  left: 2em;
+  margin: 1em;
+  padding: 5%;
+  padding-top: 0;
+  text-align: center;
+}
+
+.port-box {
+  width: 100%;
+}
+
+.port-squares {
+  padding: 1em;
+  display: block;
+  text-align: center;
+}
+
+.port-text {
+  padding: 1rem;
+  display: block;
+  background-color: #333333;
+  color: #0B8599;
+  display: none;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
