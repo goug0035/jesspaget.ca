@@ -177,6 +177,23 @@ h1 {
   max-width: 15rem;
 }
 
+.infotitle {
+  text-align: center;
+  padding: 0;
+  margin-bottom: 0;
+  font-family: 'Creepster', sans-serif;
+  font-size: 3rem;
+}
+
+.myface {
+    width: 20rem;
+    margin-top: 3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 4px black;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
