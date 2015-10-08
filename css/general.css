@@ -18,6 +18,12 @@ body {
     background-color: #FED245;   
 }
 
+.img-flex {
+  display: block;
+  width: 100;
+  margin: 0 auto;
+}
+
 h1 {
   text-align: center;
   background-image: url(../images/spider.svg), url(../images/spider.svg);
@@ -173,9 +179,8 @@ h1 {
   display: block;
   margin: auto;
   margin: auto;
-  margin-bottom: 1.5rem;
   position: relative;
-  max-width: 15rem;
+  width: 100%;
 }
 
 .infotitle {
