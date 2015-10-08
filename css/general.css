@@ -34,6 +34,7 @@ h1 {
   display: inline-block;
   font-family: 'Creepster', sans-serif;
   font-size: 3rem;
+  margin-top: -.5rem;
 }
 
 .header {
@@ -71,36 +72,38 @@ h1 {
 }
 
 .instagram {
-  height: 1em;
-  width: 1em;
+  height: 3em;
+  width: 3em;
   background-image: url(../images/instagram.svg);
   background-repeat: no-repeat;
 }
 
 .behance {
-  height: 1em;
-  width: 1em;
+  height: 3em;
+  width: 3em;
   background-image: url(../images/behance.svg);
   background-repeat: no-repeat;
 }
 
 .tumblr {
-  height: 1em;
-  width: 1em;
+  height: 3em;
+  width: 3em;
   background-image: url(../images/tumblr.svg);
   background-repeat: no-repeat;
 }
 
 .linkedin {
-  height: 1em;
-  width: 1em;
+  height: 3em;
+  width: 3em;
   background-image: url(../images/linkedin.svg);
   background-repeat: no-repeat;
 }
 
 .icon {
   display: inline-block;
-  width: 1rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  padding-bottom: 0;
 }
 
 .nav {
@@ -122,7 +125,7 @@ h1 {
   border-bottom: 1px solid #FED245;
   text-decoration: none;
   font-family: 'Cutive Mono', sans-serif;
-  text-transform: uppercase;
+  text-transform: lowercase;
   font-size: .85rem;
   color: #FED245;
 }
@@ -139,9 +142,6 @@ h1 {
 .nav-label {
   cursor: pointer;
   width: 30px;
-  xposition: absolute;
-  xleft: 50%;
-  xtransform: translateX(-50%);
   z-index: 1;
   display: inline-block;
 }
@@ -172,7 +172,7 @@ h1 {
 .bodyimages {
   z-index: 0;
   position: relative;
-  top: 3em;
+  top: 1em;
 }
 
 .images {
