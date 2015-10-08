@@ -133,10 +133,11 @@ h1 {
 .nav-label {
   cursor: pointer;
   width: 30px;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  xposition: absolute;
+  xleft: 50%;
+  xtransform: translateX(-50%);
   z-index: 1;
+  display: inline-block;
 }
 
 .nav-open,
