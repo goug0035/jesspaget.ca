@@ -194,6 +194,16 @@ h1 {
     border: solid 4px black;
 }
 
+h3 {
+  font-family: 'Creepster', sans-serif;
+  text-align: center;
+  margin: 1em;
+}
+
+.infoinfo {
+  margin: 2rem;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
