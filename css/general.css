@@ -240,7 +240,7 @@ h1 {
 
 .myface {
     width: 20rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -257,6 +257,11 @@ h3 {
   margin-left: 2rem;
   margin-right: 2rem;
   margin-bottom: 3rem; 
+}
+
+.infoemail {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .port-title {
