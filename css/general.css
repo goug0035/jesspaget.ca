@@ -114,9 +114,6 @@ h1 {
   position: relative;
 }
 
-.nav li {
-}
-
 .nav a {
   display: block;
   padding: .3em .8em;
@@ -243,6 +240,20 @@ h3 {
   display: none;
 }
 
+.footer {
+  background-color: #000;
+  color: #FED245;
+  padding: 2rem 1rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-family: 'Cutive Mono', sans-serif;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0;
+}
+
 @media only screen and (min-width: 25em) {
 
 }
@@ -334,4 +345,32 @@ h3 {
   .nav-check:checked ~ .nav-label .nav-close {
     display: block;
   }
+  
+  .nav a {
+    display: block;
+    padding: .3em .8em;
+    background-color: #000;
+    text-align: center;
+    border-bottom: 1px solid #FED245;
+    text-decoration: none;
+    font-family: 'Cutive Mono', sans-serif;
+    text-transform: lowercase;
+    font-size: .85rem;
+    color: #FED245;
+  }
+  
+  h3 {
+    text-align: left;
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+  
+  .info {
+    margin-left: 0;
+  }
+  
+  .infoinfo {
+    text-align: left;
+  }
+    
 }
