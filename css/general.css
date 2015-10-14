@@ -372,5 +372,9 @@ h3 {
   .infoinfo {
     text-align: left;
   }
+  
+  .main {
+    margin-bottom: 4rem;
+  }
     
 }
