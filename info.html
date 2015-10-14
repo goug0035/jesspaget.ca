@@ -13,8 +13,15 @@
   </head>
   
   <body>
+    
+    <ul class="skip-links">
+      <li><a href="#nav">Jump to navigation</a></li>
+      <li><a href="#main">Jump to the main content</a></li>
+      <li><a href="#footer">Jump to the footer</a></li>
+    </ul>
+    
     <div class="grid">  
-      <div class="header unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
+      <div class="header unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3" id="top"> 
         <div class="headername">
           <h1>Jess Paget</h1>
         </div>
@@ -26,7 +33,7 @@
       </div>
 
     <div class="header headerlarge unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3"> 
-        <nav>
+        <nav id="nav">
           <input type="checkbox" class="nav-check" id="nav-check">
           <label class="nav-label" for="nav-check">
             <img class="nav-open" src="images/hamburger.svg" alt="Open Navigation">
@@ -41,23 +48,25 @@
       </div>
     </div>
     
-    <div class="grid main">
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
-        <div>
-          <img src="images/flowers.jpg" alt="self portrait" class="myface">
+    <main id="main">
+      <div class="grid main">
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-1-3">
+          <div>
+            <img src="images/flowers.jpg" alt="self portrait" class="myface">
+          </div>
         </div>
-      </div>
-      
-      <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3">
-        <div class="infopage">
-          <h3>Why I do what I do</h3>
-          <p class="info infoinfo ">I have an immense passion for art and design and using that passion to help people with their businesses and brands. I specialize in print media (posters, album covers, magazines, and more) and logo design. I always put the needs of my clients first then add a little bit of my clean cut but edgy style into it as well.</p>
-        </div>
-      </div>
-    </div>
 
-    <footer class="footer">
-      <p>© Jess Paget 2015</p>
+        <div class="unit unit-xs-1 unit-s-1 unit-m-1 unit-l-2-3">
+          <div class="infopage">
+            <h3>Why I do what I do</h3>
+            <p class="info infoinfo ">I have an immense passion for art and design and using that passion to help people with their businesses and brands. I specialize in print media (posters, album covers, magazines, and more) and logo design. I always put the needs of my clients first then add a little bit of my clean cut but edgy style into it as well.</p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer" id="footer">
+      <p>© Jess Paget 2015 <a href="#top" class="footera">(^)</a></p>
     </footer>
   
   </body>
