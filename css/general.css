@@ -347,6 +347,13 @@ h3 {
       margin-right: 6rem;
       margin-bottom: 3rem; 
     }
+  
+    .nav li {
+      width: 20rem;
+      text-align: center;
+      display: block;
+      margin: 0 auto;
+    }
 }
 
 @media only screen and (min-width: 60em) {
