@@ -100,10 +100,24 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.instagramfooter {
+  height: 3em;
+  width: 3em;
+  background-image: url(../images/instagramfooter.svg);
+  background-repeat: no-repeat;
+}
+
 .behance {
   height: 3em;
   width: 3em;
   background-image: url(../images/behance.svg);
+  background-repeat: no-repeat;
+}
+
+.behancefooter {
+  height: 3em;
+  width: 3em;
+  background-image: url(../images/behancefooter.svg);
   background-repeat: no-repeat;
 }
 
@@ -114,10 +128,24 @@ h1 {
   background-repeat: no-repeat;
 }
 
+.tumblrfooter {
+  height: 3em;
+  width: 3em;
+  background-image: url(../images/tumblrfooter.svg);
+  background-repeat: no-repeat;
+}
+
 .linkedin {
   height: 3em;
   width: 3em;
   background-image: url(../images/linkedin.svg);
+  background-repeat: no-repeat;
+}
+
+.linkedinfooter {
+  height: 3em;
+  width: 3em;
+  background-image: url(../images/linkedinfooter.svg);
   background-repeat: no-repeat;
 }
 
@@ -338,6 +366,12 @@ h3 {
     text-align: left;
     padding: 0;
     margin-top: 1rem;
+  }
+  
+  .socialmediafooter {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
   }
   
   .icon {
