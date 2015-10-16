@@ -302,6 +302,12 @@ h3 {
   display: none;
 }
 
+/* ************ PORTFOLIO SLIDE OUT PAGES ************ */
+
+.item img:hover {
+  opacity: 50%;
+}
+
 .footer {
   background-color: #000;
   color: #FED245;
