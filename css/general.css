@@ -179,7 +179,7 @@ h1 {
 
 .nav a:hover {
   color: black;
-  background-color: #F38332;
+  background-color: #C5DA40;
 }
 
 .nav-check {
@@ -302,19 +302,38 @@ h3 {
   display: none;
 }
 
+.item {
+  transition: all .1s ease;
+  transition-property: transform;
+}
+
+.item img {
+  display: block;
+}
+
+.item img:hover 
+.item img:focus
+.item img:active {
+  cursor: pointer;
+}
+
 /* ************ PORTFOLIO SLIDE OUT PAGES ************ */
+
+.portfolio-piece-1 {
+  height: 100vh;
+}
 
 .portfolio-slide-open {
   position: fixed;
-  right: -100vh;
+  top: -100vh;
   left: 0;
-  top: 0;
   bottom: 0;
+  right: 0;
   height: 100vh;
 }
 
 .portfolio-slide-open:target {
-  right: 0;
+  top: 2em;
 }
 
 .exit {
@@ -322,19 +341,20 @@ h3 {
   width: 100vw;
   height: 2.3em;
   position: relative;
-  top: -3em;
-  transition: all 200ms linear;
+  right: -3em;
+  transition: all .1s linear;
   background-color: white;
   opacity: 1;
-  border-bottom: .5px solid black;
 }
 
 .exit p {
-  color: white;
+  color: #FED245;
+  font-family: 'Creepster', sans-serif;
   font-size: 2em;
   text-align: center;
   margin: 0;
   padding: 0;
+  
 }
 
 .text {
@@ -342,9 +362,10 @@ h3 {
   position: relative;
   overflow-y: auto;
   right: -100%;
-  transition: all 200ms linear;
+  transition: all .1s linear;
   padding: 2em 2em 0;
   height: 100%;
+  text-align: center;
 }
 
 .text h3 {
