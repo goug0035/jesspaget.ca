@@ -304,8 +304,63 @@ h3 {
 
 /* ************ PORTFOLIO SLIDE OUT PAGES ************ */
 
-.item img:hover {
-  opacity: 50%;
+.portfolio-slide-open {
+  position: fixed;
+  right: -100vh;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+}
+
+.portfolio-slide-open:target {
+  right: 0;
+}
+
+.exit {
+  text-decoration: none;
+  width: 100vw;
+  height: 2.3em;
+  position: relative;
+  top: -3em;
+  transition: all 200ms linear;
+  background-color: white;
+  opacity: 1;
+  border-bottom: .5px solid black;
+}
+
+.exit p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.text {
+  background-color: white;
+  position: relative;
+  overflow-y: auto;
+  right: -100%;
+  transition: all 200ms linear;
+  padding: 2em 2em 0;
+  height: 100%;
+}
+
+.text h3 {
+  margin-bottom: 0;
+}
+
+.text img {
+  margin-bottom: 5em;
+}
+
+.portfolio-slide-open:target .text {
+  right: 0;
+}
+
+.portfolio-slide-open:target .exit {
+  right: 0;
 }
 
 .footer {

@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /jesspaget.ca
+exclude: ['README.md']
