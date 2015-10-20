@@ -342,7 +342,7 @@ h3 {
   height: 2.3em;
   position: relative;
   right: -3em;
-  transition: all .1s linear;
+  transition: all .1s ease;
   background-color: white;
   opacity: 1;
 }
@@ -362,7 +362,7 @@ h3 {
   position: relative;
   overflow-y: auto;
   right: -100%;
-  transition: all .1s linear;
+  transition: all .1s ease;
   padding: 2em 2em 0;
   height: 100%;
   text-align: center;
