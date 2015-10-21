@@ -349,12 +349,19 @@ h3 {
 
 .exit p {
   color: #FED245;
-  font-family: 'Creepster', sans-serif;
+  font-family: 'Cutive Mono', sans-serif;
   font-size: 2em;
-  text-align: center;
+  text-align: left;
   margin: 0;
-  padding: 0;
-  
+  padding-left: .5em;
+  padding-bottom: .5em;
+  padding-top: .1em;
+}
+
+.portfoliotext {
+  font-family: 'Cutive Mono', sans-serif;
+  font-size: .8em;
+  margin-top: 2em;
 }
 
 .text {
@@ -374,6 +381,7 @@ h3 {
 
 .text img {
   margin-bottom: 5em;
+  width: 90%;
 }
 
 .portfolio-slide-open:target .text {
