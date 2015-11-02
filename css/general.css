@@ -15,7 +15,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #FED245;   
+    background-color: #FFF;   
 }
 
 .img-flex {
@@ -78,6 +78,10 @@ h1 {
   font-family: 'Cutive Mono' sans-serif;
   text-transform: lowercase;
   font-size: .8rem;
+}
+
+.para {
+  color: #FED245;
 }
 
 .email {
@@ -169,7 +173,7 @@ h1 {
   padding: .3em .8em;
   background-color: #000;
   text-align: center;
-  border-bottom: 1px solid #FED245;
+  border-bottom: 1px solid #FFF;
   text-decoration: none;
   font-family: 'Cutive Mono', sans-serif;
   text-transform: lowercase;
@@ -179,7 +183,7 @@ h1 {
 
 .nav a:hover {
   color: black;
-  background-color: #C5DA40;
+  background-color: #FED245;
 }
 
 .nav-check {
@@ -538,7 +542,7 @@ h3 {
     padding: .3em .8em;
     background-color: #000;
     text-align: center;
-    border-bottom: 1px solid #FED245;
+    border-bottom: 1px solid #FFF;
     text-decoration: none;
     font-family: 'Cutive Mono', sans-serif;
     text-transform: lowercase;
