@@ -89,6 +89,11 @@ h1 {
   
 }
 
+footer p {
+  color: #FFF;
+  margin-bottom: 4em;
+}
+
 .socialmedia {
   list-style-type: none;
   text-align: center;
@@ -364,8 +369,17 @@ h3 {
 
 .portfoliotext {
   font-family: 'Cutive Mono', sans-serif;
+  font-size: 1em;
+  margin-top: 2em;
+}
+
+.portfoliosubheads {
+  font-family: 'Cutive Mono', sans-serif;
   font-size: .8em;
   margin-top: 2em;
+  text-align: left;
+  margin-left: .9em;
+  text-transform: uppercase;
 }
 
 .portfolio-title {
@@ -541,6 +555,7 @@ h3 {
     display: block;
     padding: .3em .8em;
     background-color: #000;
+    margin-right: 5em;
     text-align: center;
     border-bottom: 1px solid #FFF;
     text-decoration: none;
