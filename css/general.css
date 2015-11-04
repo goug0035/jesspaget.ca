@@ -534,13 +534,12 @@ h3 {
   }
   
   .nav {
-    margin: 0 3rem 0 3rem;
     padding: 0;
     list-style-type: none;
     display: inline-block;
     position: relative;
     left: -8rem;
-    top: 1.7rem;
+    top: 5.7rem;
   }
 
   .nav-check:checked ~ .nav-label .nav-open {
@@ -553,16 +552,21 @@ h3 {
   
   .nav a {
     display: block;
+    background-color: white;
     padding: .3em .8em;
-    background-color: #000;
-    margin-right: 5em;
-    text-align: center;
+    text-align: left;
     border-bottom: 1px solid #FFF;
+    float: left;
     text-decoration: none;
     font-family: 'Cutive Mono', sans-serif;
     text-transform: lowercase;
     font-size: .85rem;
     color: #FED245;
+  }
+  
+  .nav a:hover {
+    color: black;
+    background-color: white;
   }
   
   h3 {
