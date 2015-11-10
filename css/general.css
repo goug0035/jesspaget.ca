@@ -323,7 +323,6 @@ h3 {
 .item a img:focus
 .item a img:active {
   cursor: pointer;
-  opacity: 50%;
 }
 
 /* ************ PORTFOLIO SLIDE OUT PAGES ************ */
