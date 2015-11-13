@@ -87,7 +87,7 @@ h1 {
 }
 
 .para {
-  color: #FED245;
+  color: #000;
 }
 
 .email {
@@ -272,7 +272,7 @@ footer p {
 }
 
 h3 {
-  font-family: 'Cutive Mono', sans-serif;
+  font-family: 'Audiowide', sans-serif;
   text-align: center;
   margin: 1em;
 }
