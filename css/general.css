@@ -48,19 +48,25 @@ body {
 
 h1 {
   text-align: center;
-  background-image: url(../images/spider.svg), url(../images/spider.svg);
+  xbackground-image: url(../images/spider.svg), url(../images/spider.svg);
   padding: 0 2rem;
   background-size: .3em auto;
   background-repeat: no-repeat;
   background-position: 0 100%, 100% 100%;
   display: inline-block;
-  font-family: 'Creepster', sans-serif;
-  font-size: 3rem;
-  margin-top: -.5rem;
+  font-family: 'Audiowide' sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 1em;
+}
+
+.jesspaget {
+  margin: 0;
 }
 
 .header {
   text-align: center;
+  margin-top: 1em;
 }
 
 .spider1 {
@@ -74,7 +80,7 @@ h1 {
   text-align: center;
   list-style-type: none;
   padding: 0;
-  margin-top: -1rem;
+  margin-top: 0;
   font-family: 'Cutive Mono' sans-serif;
   text-transform: lowercase;
   font-size: .8rem;
@@ -204,6 +210,11 @@ footer p {
   width: 30px;
   z-index: 1;
   display: inline-block;
+  margin-top: -4em;
+}
+
+.nav-open {
+  height: 1.5em;
 }
 
 .nav-open,
@@ -247,7 +258,7 @@ footer p {
   text-align: center;
   padding: 0;
   margin-bottom: 0;
-  font-family: 'Creepster', sans-serif;
+  font-family: 'Audiowide', sans-serif;
   font-size: 3rem;
 }
 
@@ -261,7 +272,7 @@ footer p {
 }
 
 h3 {
-  font-family: 'Creepster', sans-serif;
+  font-family: 'Cutive Mono', sans-serif;
   text-align: center;
   margin: 1em;
 }
@@ -319,10 +330,9 @@ h3 {
   display: block;
 }
 
-.item a img:hover 
-.item a img:focus
-.item a img:active {
+.item img:hover {
   cursor: pointer;
+  background-color: #FED245;
 }
 
 /* ************ PORTFOLIO SLIDE OUT PAGES ************ */
@@ -554,7 +564,7 @@ h3 {
     display: inline-block;
     position: relative;
     left: -8rem;
-    top: 5.7rem;
+    top: 4.1rem;
   }
 
   .nav-check:checked ~ .nav-label .nav-open {
