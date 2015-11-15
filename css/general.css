@@ -275,6 +275,7 @@ h3 {
   font-family: 'Audiowide', sans-serif;
   text-align: center;
   margin: 1em;
+  text-transform: uppercase;
 }
 
 .infoinfo {
@@ -330,9 +331,29 @@ h3 {
   display: block;
 }
 
-.item img:hover {
-  cursor: pointer;
-  background-color: #FED245;
+.hover-box {
+  display: block;
+  position: relative;
+}
+
+.hover-box img {
+  display: block;
+}
+
+.hover-box p {
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 0;
+  color: white;
+  text-align: left;
+  padding-left: 1em;
+  padding-top: 1em;
+  text-transform: uppercase;
+  font-family: 'Cutive Mono', sans-serif;
 }
 
 /* ************ PORTFOLIO SLIDE OUT PAGES ************ */
