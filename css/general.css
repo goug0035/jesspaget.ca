@@ -54,8 +54,8 @@ h1 {
   background-repeat: no-repeat;
   background-position: 0 100%, 100% 100%;
   display: inline-block;
-  font-family: 'Audiowide' sans-serif;
-  text-transform: uppercase;
+  font-family: 'Questrial' sans-serif;
+  text-transform: lowercase;
   font-size: 2rem;
   margin-top: 1em;
 }
@@ -225,6 +225,7 @@ footer p {
 
 .nav-close {
   display: none;
+  margin-top: -1.2em;
 }
 
 .nav-check:checked ~ .nav-label .nav-open {
@@ -272,21 +273,25 @@ footer p {
 }
 
 h3 {
-  font-family: 'Audiowide', sans-serif;
+  font-family: 'Questrial', sans-serif;
   text-align: center;
   margin: 1em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .infoinfo {
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-bottom: 3rem; 
+  margin: 2em;
 }
 
 .infoemail {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.infoemailyellow {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #FED245;
 }
 
 .port-title {
@@ -302,6 +307,10 @@ h3 {
   padding: 5%;
   padding-top: 0;
   text-align: center;
+}
+
+.item a p {
+  color: #FED245;
 }
 
 .port-box {
@@ -334,6 +343,7 @@ h3 {
 .hover-box {
   display: block;
   position: relative;
+  margin: 0;
 }
 
 .hover-box img {
@@ -349,11 +359,17 @@ h3 {
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0;
   color: white;
+  font-size: 1.5em;
   text-align: left;
   padding-left: 1em;
   padding-top: 1em;
   text-transform: uppercase;
   font-family: 'Cutive Mono', sans-serif;
+  transform: scale(0);
+}
+
+.hover-box:hover p {
+  transform: scale(1);
 }
 
 /* ************ PORTFOLIO SLIDE OUT PAGES ************ */
@@ -405,7 +421,7 @@ h3 {
   margin-top: 2em;
   text-align: left;
   margin-left: .9em;
-  text-transform: uppercase;
+  text-transform: lowercase;
 }
 
 .portfolio-title {
@@ -414,6 +430,8 @@ h3 {
   padding-bottom: 1rem;
   font-size: 2rem;
   text-align: center;
+  font-family: 'Questrial', sans-serif;
+  text-transform: lowercase;
 }
 
 .portfolio-title-div {
@@ -483,7 +501,9 @@ h3 {
   }
   
   .infoinfo {
-    max-width: 30rem;
+    max-width: 35rem;
+    margin: 0 auto;
+    padding: 1em;
   }
   
   .socialmedia {
@@ -493,12 +513,6 @@ h3 {
     margin-top: -1.3rem;
     margin-bottom: 0;
   }
-  
-    .infoinfo {
-      margin-left: 6rem;
-      margin-right: 6rem;
-      margin-bottom: 3rem; 
-    }
   
     .nav li {
       width: 20rem;
@@ -618,7 +632,7 @@ h3 {
   
   h3 {
     text-align: left;
-    margin-left: 0;
+    margin-left: .4em;
     margin-top: 3rem;
   }
   
