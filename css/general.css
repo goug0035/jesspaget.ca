@@ -266,7 +266,7 @@ footer p {
   margin-left: auto;
   margin-right: auto;
   border: solid 4px black;
-  position: relative;
+  display: block;
 }
 
 h3 {
