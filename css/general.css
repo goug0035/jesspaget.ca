@@ -329,8 +329,12 @@ h3 {
 }
 
 .item {
-  transition: all .1s ease;
   transition-property: transform;
+  
+  -webkit-transition: all .1s ease;
+  -o-transition: all .1s ease;
+  -moz-transition: all .1s ease;
+  transition: all .1s ease;
 }
 
 .item img {
@@ -362,10 +366,18 @@ h3 {
   padding-top: 1em;
   text-transform: uppercase;
   font-family: 'Cutive Mono', sans-serif;
+  
+  -webkit-transform: scale(0);
+  -o-transform: scale(0);
+  -moz-transform: scale(0);
   transform: scale(0);
 }
 
 .hover-box:hover p {
+  
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -moz-transform: scale(1);
   transform: scale(1);
 }
 
