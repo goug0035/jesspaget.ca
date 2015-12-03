@@ -35,7 +35,7 @@ body {
   top: -3em;
   background-color: #000;
   color: #fff;
-  font-family: 'Cutive Mono' sans-serif;
+  font-family: 'Cutive Mono', sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   padding: 0.5em 0.75em;
@@ -51,7 +51,7 @@ h1 {
   padding: 0 2rem;
   background-size: .3em auto;
   display: inline-block;
-  font-family: 'Questrial' sans-serif;
+  font-family: 'Questrial', sans-serif;
   text-transform: lowercase;
   font-size: 2rem;
   margin-top: 1em;
