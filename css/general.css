@@ -78,7 +78,7 @@ h1 {
   list-style-type: none;
   padding: 0;
   margin-top: 0;
-  font-family: 'Cutive Mono' sans-serif;
+  font-family: 'Cutive Mono', sans-serif;
   text-transform: lowercase;
   font-size: .8rem;
 }
