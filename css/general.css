@@ -438,7 +438,7 @@ h3 {
 }
 
 .portfolio-title-div {
-  margin-bottom: 6em;
+  margin-bottom: 4em;
 }
 
 .portimages {
@@ -451,10 +451,6 @@ h3 {
   padding: 2em 2em 0;
   text-align: center;
   width: 100%;
-}
-
-.portfoliocontent {
-  margin-top: 2em;
 }
 
 .text h3 {
