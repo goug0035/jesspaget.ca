@@ -663,4 +663,9 @@ h3 {
   .main {
     margin-bottom: 4rem;
   }   
+  
+  .portfolio-content {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
 }
