@@ -6,6 +6,7 @@
 
 html {
 	box-sizing: border-box;
+    position: relative;
 }
 
 *, *:before, *:after {
@@ -15,7 +16,10 @@ html {
 body {
   margin: 0;
   padding: 0;
+  padding-bottom: 11em;
   background-color: #FFF;
+  position: relative;
+  min-height: 100vh;
 }
 
 .img-flex {
@@ -472,6 +476,9 @@ h3 {
   text-transform: uppercase;
   font-family: 'Cutive Mono', sans-serif;
   text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer p {
@@ -486,6 +493,7 @@ h3 {
 
 .error {
   text-align: center;
+  margin-top: 5rem;
 }
 
 .errorpageh1 {
